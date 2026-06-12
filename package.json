@@ -1,0 +1,28 @@
+{
+  "name": "rotor-protocol",
+  "version": "0.1.0",
+  "description": "Non-custodial fee routing protocol for XRPL merchant applications",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "xrpl",
+    "xrp-ledger",
+    "crypto-payments",
+    "non-custodial",
+    "fee-routing",
+    "rlusd"
+  ],
+  "author": "Jermaine Ulinwa",
+  "license": "MIT",
+  "dependencies": {
+    "xrpl": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
